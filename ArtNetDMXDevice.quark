@@ -1,0 +1,12 @@
+(
+\name: "ArtNetDMXDevice",
+\path: "ArtNetDMXDevice",
+\summary: "A DMX Device to be used with the DMX library",
+\author: "Chrysostomos Chadjiminas",
+\version: 0.1,
+\organization: "CYENS",
+\country: "",
+\since: "",
+\helpdoc: "",
+\url: ""
+)
