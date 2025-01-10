@@ -27,7 +27,7 @@ ArtNetDMXDevice {
         artnetAddr = NetAddr(addr, port);
 
 		if(showDebug,
-			{ ("[ArtNetDMXDevice] DMX Data (channel, value): " ++ this.collectGreaterThanZero(data)).postln },
+			{ ("[ArtNetDMXDevice " ++ addr ++":" ++ port ++ "] DMX Data (channel, value): " ++ this.collectGreaterThanZero(data)).postln },
 			{}
 		);
 
